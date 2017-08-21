@@ -1,0 +1,35 @@
+---
+title: 'Lab 1: Some reasonable title'
+author: "Some reasonable human"
+date: "8/21/2017"
+header-includes:
+   - \usepackage{float}
+output:
+  pdf_document: default
+  html_document: default
+---
+
+To compile this document, click on the triangle next to "Knit" and click "Knit to PDF" (the default will be HTML, but remember that we want PDF versions for your final report!). Note that if you have never installed LaTeX, you will need to do so in order to compile this document!
+
+Place some reasonable text here.
+
+
+
+```{r echo = FALSE, warning=FALSE, message=FALSE, fig.align="center", fig.height=3, fig.width=4, fig.cap = "This is a reasonable plot", fig.pos = "H"}
+library(tidyverse)
+# make some reasonable plot
+ggplot(iris) + geom_point(aes(x = Sepal.Width, y = Sepal.Length, col = Species)) + theme_classic()
+```
+
+Note that to set the figure position to be "Here", you need to use the chunk argument `fig.pos = "H"` and place the following option in the metadata at the top of the document:
+
+```{r eval = FALSE}
+header-includes:
+    - \usepackage{float}
+```
+
+Including this LaTeX package will mean that you can no longer compile to HTML.
+
+Here is some reasonable math.
+
+$$y = a + bx$$

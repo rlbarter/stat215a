@@ -1,0 +1,4 @@
+name = "Rebecca Barter"
+SID = "0123456789"
+email = "rebeccabarter@berkeley.edu"
+github_name = "rlbarter"
