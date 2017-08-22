@@ -1,5 +1,5 @@
 ---
-title: 'Lab 1: Some reasonable title'
+title: 'Lab 0: Some reasonable title'
 author: "Some reasonable human"
 date: "8/21/2017"
 header-includes:

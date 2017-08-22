@@ -1,0 +1,10 @@
+---
+title: 'Lab 0: Some reasonable title'
+author: ''
+date: "8/21/2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Copy and paste the contents of Lab1.Rmd here. Be sure to remove your name!
