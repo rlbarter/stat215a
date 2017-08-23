@@ -2,11 +2,11 @@
 title: 'Lab 0: Some reasonable title'
 author: "Some reasonable human"
 date: "8/21/2017"
-header-includes:
-   - \usepackage{float}
 output:
   pdf_document: default
   html_document: default
+  word_document: default
+header-includes: \usepackage{float}
 ---
 
 To compile this document, click on the triangle next to "Knit" and click "Knit to PDF" (the default will be HTML, but remember that we want PDF versions for your final report!). Note that if you have never installed LaTeX, you will need to do so in order to compile this document!

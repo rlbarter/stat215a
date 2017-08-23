@@ -7,4 +7,4 @@ output:
   html_document: default
 ---
 
-Copy and paste the contents of Lab1.Rmd here. Be sure to remove your name!
+Copy and paste the contents of Lab0.Rmd here. Be sure to remove your name!
