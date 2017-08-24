@@ -43,7 +43,7 @@ Now you're ready to push to your remote repository for the first time:
 
 ## Submitting your lab report
 
-You will submit your lab report by adding it to your local stat215a folder and then following the standard procedure; `git add lab1`, `git commit -m "Uploaded lab 1"`, `git push`.
+You will submit your lab report by adding it to your local stat215a folder and then following the standard procedure; `git pull`, `git add lab1`, `git commit -m "Uploaded lab 1"`, `git push`.
 
 Your lab should be contained in a folder called `lab1`, `lab2`, etc (depending on which lab you are submitting). The folder structure should be as follows:
 
@@ -56,4 +56,4 @@ lab1/
   report.pdf
 ```
 
-This will push your lab to your own stat215a repository (https://github.com/USERNAME/stat215a). At the submission deadline, I will then pull from your repository (since I am a collaborator), so I should receive a local copy of your lab report. Shortly afterward, I will push a folder containing two papers for you to review and grade. You will submit your feedback in the same way that you submitted your lab.
+This will push your lab to your own stat215a repository (https://github.com/USERNAME/stat215a). At the submission deadline, I will then pull from your repository (since I am a collaborator), so I should receive a local copy of your lab report. Shortly afterward, I will push a folder containing two papers for you to review and grade. To see this folder locally you will need to `git pull`. You will submit your completed feedback forms in the same way that you submitted your lab.
