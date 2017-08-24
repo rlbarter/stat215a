@@ -50,10 +50,35 @@ Your lab should be contained in a folder called `lab1`, `lab2`, etc (depending o
 
 ```
 lab1/
+  data/
   extra/
   homework.pdf
-  report.Rmd
-  report.pdf
+  lab1.Rmd
+  lab1.pdf
+  lab1_blind.Rmd
+  lab1_blind.pdf
+  R/
 ```
+
+
+
+- The source of your report (with code) will be contained in the `lab1.Rmd` file (`lab1.Rnw` is fine too).
+
+- The compiled version of your report will be contained in `lab1.pdf`.
+
+- You will also submit a "blind" version of each of these documents that does not include your name (`lab1_blind.Rmd` and `lab1_blind.pdf`).
+
+- The `R/` folder will contain any extra R scripts needed to compile your report.
+
+- The `data/` folder will contain any data you use for the lab. Note that in the instance that the data is a large file (over 100MB), you do not need to include it in the `data/` folder.
+
+- The `homework.pdf` file will contain your completed homework. Please do not include any irrelevant files.
+
+Note that GitHub cannot host files more than 100 MB. If you try to push a file larger than this, GitHub will cry.
+
+When you are ready, you need to add, commit, and push the `lab1/` folder.
+
+At the time when the lab is due, we will run a script that automatically pulls all of your assignments into my local versions of your `stat215a` repositories. Please make sure to submit your labs on time. We will spend some time in a lab having everyone submit a pretend assignment so that you are all clear on what to do.
+
 
 This will push your lab to your own stat215a repository (https://github.com/USERNAME/stat215a). At the submission deadline, I will then pull from your repository (since I am a collaborator), so I should receive a local copy of your lab report. Shortly afterward, I will push a folder containing two papers for you to review and grade. To see this folder locally you will need to `git pull`. You will submit your completed feedback forms in the same way that you submitted your lab.
